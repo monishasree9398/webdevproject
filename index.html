@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DON'T OPEN</title>
+    <link rel="icon" type="image/jpg" href="https://www.freeiconspng.com/uploads/warning-icon-24.png">
+    <nav class="navg">
+        <a href="index.html" >THE HOUSE</a>
+        <a href="game.html">PLAY IF YOU DARE</a>
+        <a href="doors.html">DON'T ENTER</a>
+        <a href="file.html" >KNOW HER</a>
+        
+    </nav>
+    
+</head>
+<body>
+<style>
+    body{
+    background-image:url("https://static0.srcdn.com/wordpress/wp-content/uploads/2023/07/haunted-house-preview-big-festival-main.jpg?w=1200&h=675&fit=crop");
+    
+     background-size:100% 850px;
+     background-repeat: no-repeat;
+    }
+
+   .navg {
+            display: flex; 
+            gap: 100px; 
+            justify-content: center;
+            align-items: center; 
+            height: 50px;
+            position: sticky;
+            
+            background: #050505;
+            border-bottom: 2px solid darkred;
+        }   
+
+        .navg a {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+        .navg a:hover {
+            color: red;
+        }
+       @keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px); 
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.enter {
+  background: transparent;
+  border: none;
+  display: inline-block; 
+  position: relative;
+  left: -130px; 
+  top: 10px;
+  filter: brightness(50%);
+  cursor: pointer;
+  animation: float 1s ease-in-out infinite;
+}
+
+</style>
+<img src="https://dyom.gtagames.nl/38/39224/screen.png" style="margin-top: 30px;margin-left: 40px;filter:brightness(60%);opacity: 0.8;">
+<a href="game.html" class="enter"><img src="https://static.vecteezy.com/system/resources/thumbnails/075/591/763/small/human-skull-icon-head-bone-skeleton-dead-halloween-anatomy-orange-death-symbol-png.png" width="200px" height="200px"></a>
+
+</body>
+</html>
